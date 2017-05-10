@@ -2,7 +2,7 @@
   "name": "@celeri/query-parser",
   "version": "1.0.1",
   "description": "Query string parsing middleware for Celeri",
-  "main": "src/index.js",
+  "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -3,7 +3,7 @@ import url from 'url';
 import querystring from 'querystring';
 
 export const queryParser = () => {
-	return ({ req, res }) => {
+	return ({ req }) => {
 		if (req.query) {
 			req.query = querystring.parse(req.query);
 		}
